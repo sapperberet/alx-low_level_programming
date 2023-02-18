@@ -10,7 +10,7 @@ int main(void)
 {
 char car;
 
-for (car = 'a'; car < 'z'; car++)
+for (car = 'a'; car <= 'z'; car++)
 {
 if ((car != 'q') && (car != 'e'))
 {
