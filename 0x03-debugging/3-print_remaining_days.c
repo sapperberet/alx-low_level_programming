@@ -3,7 +3,7 @@
 
 /**
  * print_remaining_days - entry point
- *  @month: month 
+ *  @month: month
  *   @day: day of year
  *   Return: void
  *   @year : one of the years
