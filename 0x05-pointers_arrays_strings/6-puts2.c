@@ -12,7 +12,7 @@ size = 0;
 
 while (str[size] != '\0')
 {
-	len++;
+	size++;
 }
 
 for (i = 0; i < size; i += 2)
