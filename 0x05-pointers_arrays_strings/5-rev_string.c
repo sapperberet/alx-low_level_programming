@@ -2,7 +2,7 @@
 
 /**
  * rev_string - entry point
- * @s: string 
+ * @s: string
  */
 void rev_string(char *s)
 {

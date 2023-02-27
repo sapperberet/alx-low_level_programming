@@ -14,7 +14,7 @@ len = 0;
 
 while (src[len] != '\0')
 {
-	len++;				
+	len++;
 }
 for (j = 0; j < len; j++)
 {
