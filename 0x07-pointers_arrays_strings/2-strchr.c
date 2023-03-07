@@ -4,7 +4,7 @@
 /**
  * *_strchr - entry point
  * @s: string
- * @c: char 
+ * @c: char
  * Return: pointer or null
  */
 char *_strchr(char *s, char c)
