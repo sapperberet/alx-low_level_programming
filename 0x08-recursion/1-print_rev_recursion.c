@@ -1,20 +1,14 @@
 #include "main.h"
 
 /**
- * *_memcpy - entry point
- * @dest: string 1
- * @src:  string 2
- * @n: int
- * Return: pointer
+ *_print_rev_recursion - prints a string in reverse
+ * @s: string to print
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+void _print_rev_recursion(char *s)
 {
-unsigned int i;
-
-for (i = 0; i < n; i++)
+if (*s)
 {
-	dest[i] = src[i];
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
 }
-
-return (dest);
 }
