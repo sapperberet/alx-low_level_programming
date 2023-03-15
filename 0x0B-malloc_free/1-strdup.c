@@ -9,9 +9,8 @@
 char *_strdup(char *str)
 {
 char *second;
-unsigned int i, len;
+unsigned int len;
 
-i = 0;
 len = 0;
 
 if (str == NULL)
