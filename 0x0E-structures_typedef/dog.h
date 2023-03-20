@@ -1,12 +1,12 @@
 #ifndef DOG_H
 #define DOG_H
 
-/*
+/**
  * struct dog - entry point
  * @name: mem 1
  * @age: mem 2
  * @owner: mem 3
- * Description: here
+ * Description: dog structure .
  */
 struct dog
 {
@@ -15,7 +15,7 @@ struct dog
 	char *owner;
 };
 
-/*
+/**
  * dog_t - entry point
  */
 typedef struct dog dog_t;
