@@ -4,7 +4,7 @@
 
 /**
  * add_node_end - entry point
- * @head: 2x pointer 
+ * @head: 2x pointer
  * @str: char *
  * Return: address
  */
